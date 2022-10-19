@@ -4,7 +4,7 @@ import { useAccount, useNetwork, useDisconnect } from "wagmi";
 // Components
 import { DisconnectButton } from "./DisconnectButton";
 
-const Header = () => {
+export const Header = () => {
   const { isConnected, address } = useAccount();
   const { disconnect } = useDisconnect();
   const { chain } = useNetwork();
@@ -43,4 +43,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+
