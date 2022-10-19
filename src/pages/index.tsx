@@ -5,8 +5,8 @@ import { useConnect, useAccount } from "wagmi";
 import { MetaMaskConnector } from "wagmi/connectors/metaMask";
 
 // Components
-import Header from "../components/Header";
-import PrivacyPolicy from "../components/PrivacyPolicy";
+import { Header } from "../components/Header";
+import { PrivacyPolicy } from "../components/PrivacyPolicy";
 import { DisconnectButton } from "../components/DisconnectButton";
 
 export const HomeScreen = () => {

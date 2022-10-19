@@ -6,7 +6,7 @@ export interface PrivacyPolicyProps {
   onAgree: (value: boolean) => void;
 }
 
-const PrivacyPolicy = (props: PrivacyPolicyProps) => {
+export const PrivacyPolicy = (props: PrivacyPolicyProps) => {
   const { isAgree, onAgree } = props;
 
   return (
@@ -31,4 +31,4 @@ const PrivacyPolicy = (props: PrivacyPolicyProps) => {
   );
 };
 
-export default PrivacyPolicy;
+
