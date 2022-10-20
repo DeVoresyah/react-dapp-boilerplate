@@ -34,7 +34,7 @@ export const HomeScreen = () => {
             <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
               {WALLET_LIST.map((item) => (
                 <button
-                  className="flex flex-col items-center justify-between border border-WhiteE5 px-4 py-5 rounded-md min-h-[130px]"
+                  className="flex flex-col items-center justify-between border border-black-231 px-4 py-5 rounded-md min-h-[130px]"
                   onClick={() =>
                     item.title === "MetaMask" && isAgree && connect()
                   }
