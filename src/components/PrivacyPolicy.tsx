@@ -12,8 +12,8 @@ export const PrivacyPolicy = (props: PrivacyPolicyProps) => {
   return (
     <div className="mt-5">
       <p className="text-sm font-bold">
-        Accept <span className="text-[#6366F1]">Terms of Service</span> and{" "}
-        <span className="text-[#6366F1]">Privacy Policy</span>
+        Accept <span className="text-Purple63">Terms of Service</span> and{" "}
+        <span className="text-Purple63">Privacy Policy</span>
       </p>
       <div className="flex items-center">
         <input
